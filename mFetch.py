@@ -1,7 +1,7 @@
 import urllib.request as ur
 from html.parser import HTMLParser
 import os
-import dataMake as dm
+import dataMake as dm       # helps in getting data in the required format.
 
 url = "http://songspk.name/indian-mp3-songs/gunday-2013-mp3-songs.html"
 filename = 'songs.html'

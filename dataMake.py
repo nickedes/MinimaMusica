@@ -1,8 +1,9 @@
-'''f = open('gunday.txt', 'r')
-line = f.readlines()
-f.close()'''
 
 def listing(line):
+    '''
+    Takes the lines of a document and extract music data.
+    Takes a list and returns a list.
+    '''
     data = []
     count = 0
     for l in line:
@@ -17,6 +18,10 @@ def listing(line):
     return data
 
 def actualData(data):
+    '''
+    Takes music data and arrange in a format.
+    takes a list and returns a dictionary.
+    '''
     mov = {}
     mov[data[2]] = {}
     for l in range(3, len(data)):
@@ -40,6 +45,3 @@ def actualData(data):
                 d[data[l]] = data[l+1]
                 l += 2
     return mov
-
-#print (data)
-#print(mov)
