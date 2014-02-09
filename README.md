@@ -16,3 +16,8 @@ TODO-
 THOUGHTS-
 
 1. Limiting the updating/editing of releases so that community can verify the updates/edits.
+
+
+http://wiki.musicbrainz.org/Development/Release_Editor_Seeding
+
+https://wiki.musicbrainz.org/Bots
